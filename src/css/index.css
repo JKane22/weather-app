@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.spinner {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  animation: spin 0.75s linear infinite;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-right-color: white;
+  width: 12px;
+  height: 12px;
+}
+
+
+@keyframes spin {
+  to {transform: rotate(360deg);}
+}
